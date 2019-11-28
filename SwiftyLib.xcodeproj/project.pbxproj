@@ -13,9 +13,15 @@
 		4C6C5CD9238FA65200E4DBE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C5CD7238FA65200E4DBE2 /* Main.storyboard */; };
 		4C6C5CDB238FA65300E4DBE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C5CDA238FA65300E4DBE2 /* Assets.xcassets */; };
 		4C6C5CDE238FA65300E4DBE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C5CDC238FA65300E4DBE2 /* LaunchScreen.storyboard */; };
+		4C6C5CE4238FAAEA00E4DBE2 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C5CE3238FAAEA00E4DBE2 /* SwiftyLib.swift */; };
+		4C6C5CE6238FB26C00E4DBE2 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C5CE5238FB26C00E4DBE2 /* CustomLabel.swift */; };
+		4C6C5CE8238FB35E00E4DBE2 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C5CE7238FB35E00E4DBE2 /* CustomButton.swift */; };
+		6BC84CE5D6CF9DF7790C97F3 /* Pods_SwiftyLibExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29E301262FBEA1C3DDDC973 /* Pods_SwiftyLibExamples.framework */; };
+		E4ED29A4585146DB49941503 /* Pods_SwiftyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609836CC7DE65218CFDF382B /* Pods_SwiftyLib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B92F97EDDBC2EA14CCA3C58 /* Pods-SwiftyLibExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLibExamples.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyLibExamples/Pods-SwiftyLibExamples.debug.xcconfig"; sourceTree = "<group>"; };
 		4C6C5CC2238FA63700E4DBE2 /* SwiftyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6C5CC5238FA63700E4DBE2 /* SwiftyLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyLib.h; sourceTree = "<group>"; };
 		4C6C5CC6238FA63700E4DBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -26,6 +32,14 @@
 		4C6C5CDA238FA65300E4DBE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C6C5CDD238FA65300E4DBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C6C5CDF238FA65300E4DBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6C5CE3238FAAEA00E4DBE2 /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
+		4C6C5CE5238FB26C00E4DBE2 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		4C6C5CE7238FB35E00E4DBE2 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		60609D84F9BD5BB277C1190A /* Pods-SwiftyLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLib.release.xcconfig"; path = "Target Support Files/Pods-SwiftyLib/Pods-SwiftyLib.release.xcconfig"; sourceTree = "<group>"; };
+		609836CC7DE65218CFDF382B /* Pods_SwiftyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC13688B15261B44EDC747B /* Pods-SwiftyLibExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLibExamples.release.xcconfig"; path = "Target Support Files/Pods-SwiftyLibExamples/Pods-SwiftyLibExamples.release.xcconfig"; sourceTree = "<group>"; };
+		C31B4FD5ABE8EADDD057E3DE /* Pods-SwiftyLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLib.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyLib/Pods-SwiftyLib.debug.xcconfig"; sourceTree = "<group>"; };
+		D29E301262FBEA1C3DDDC973 /* Pods_SwiftyLibExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyLibExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4ED29A4585146DB49941503 /* Pods_SwiftyLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,18 +55,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BC84CE5D6CF9DF7790C97F3 /* Pods_SwiftyLibExamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32FD154D8C7EB7D404450074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				609836CC7DE65218CFDF382B /* Pods_SwiftyLib.framework */,
+				D29E301262FBEA1C3DDDC973 /* Pods_SwiftyLibExamples.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4C6C5CB8238FA63700E4DBE2 = {
 			isa = PBXGroup;
 			children = (
 				4C6C5CC4238FA63700E4DBE2 /* SwiftyLib */,
 				4C6C5CD2238FA65200E4DBE2 /* SwiftyLibExamples */,
 				4C6C5CC3238FA63700E4DBE2 /* Products */,
+				A51EE1B5680502CBF3226A42 /* Pods */,
+				32FD154D8C7EB7D404450074 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +96,7 @@
 			children = (
 				4C6C5CC5238FA63700E4DBE2 /* SwiftyLib.h */,
 				4C6C5CC6238FA63700E4DBE2 /* Info.plist */,
+				4C6C5CE3238FAAEA00E4DBE2 /* SwiftyLib.swift */,
 			);
 			path = SwiftyLib;
 			sourceTree = "<group>";
@@ -82,8 +110,21 @@
 				4C6C5CDA238FA65300E4DBE2 /* Assets.xcassets */,
 				4C6C5CDC238FA65300E4DBE2 /* LaunchScreen.storyboard */,
 				4C6C5CDF238FA65300E4DBE2 /* Info.plist */,
+				4C6C5CE5238FB26C00E4DBE2 /* CustomLabel.swift */,
+				4C6C5CE7238FB35E00E4DBE2 /* CustomButton.swift */,
 			);
 			path = SwiftyLibExamples;
+			sourceTree = "<group>";
+		};
+		A51EE1B5680502CBF3226A42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C31B4FD5ABE8EADDD057E3DE /* Pods-SwiftyLib.debug.xcconfig */,
+				60609D84F9BD5BB277C1190A /* Pods-SwiftyLib.release.xcconfig */,
+				0B92F97EDDBC2EA14CCA3C58 /* Pods-SwiftyLibExamples.debug.xcconfig */,
+				8FC13688B15261B44EDC747B /* Pods-SwiftyLibExamples.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +145,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C6C5CCA238FA63700E4DBE2 /* Build configuration list for PBXNativeTarget "SwiftyLib" */;
 			buildPhases = (
+				C0C21A6AEFF3E0BBFFCD7B6E /* [CP] Check Pods Manifest.lock */,
 				4C6C5CBD238FA63700E4DBE2 /* Headers */,
 				4C6C5CBE238FA63700E4DBE2 /* Sources */,
 				4C6C5CBF238FA63700E4DBE2 /* Frameworks */,
@@ -122,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C6C5CE0238FA65300E4DBE2 /* Build configuration list for PBXNativeTarget "SwiftyLibExamples" */;
 			buildPhases = (
+				71400BBC2C0D9F99FB833CB7 /* [CP] Check Pods Manifest.lock */,
 				4C6C5CCD238FA65200E4DBE2 /* Sources */,
 				4C6C5CCE238FA65200E4DBE2 /* Frameworks */,
 				4C6C5CCF238FA65200E4DBE2 /* Resources */,
@@ -147,6 +190,7 @@
 				TargetAttributes = {
 					4C6C5CC1238FA63700E4DBE2 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					4C6C5CD0238FA65200E4DBE2 = {
 						CreatedOnToolsVersion = 10.3;
@@ -192,11 +236,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71400BBC2C0D9F99FB833CB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyLibExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0C21A6AEFF3E0BBFFCD7B6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C6C5CBE238FA63700E4DBE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C6C5CE4238FAAEA00E4DBE2 /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C6C5CE8238FB35E00E4DBE2 /* CustomButton.swift in Sources */,
 				4C6C5CD6238FA65200E4DBE2 /* ViewController.swift in Sources */,
+				4C6C5CE6238FB26C00E4DBE2 /* CustomLabel.swift in Sources */,
 				4C6C5CD4238FA65200E4DBE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,7 +449,9 @@
 		};
 		4C6C5CCB238FA63700E4DBE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31B4FD5ABE8EADDD057E3DE /* Pods-SwiftyLib.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -372,6 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Sapient.SwiftyLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,7 +476,9 @@
 		};
 		4C6C5CCC238FA63700E4DBE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60609D84F9BD5BB277C1190A /* Pods-SwiftyLib.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -403,6 +502,7 @@
 		};
 		4C6C5CE1238FA65300E4DBE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B92F97EDDBC2EA14CCA3C58 /* Pods-SwiftyLibExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -420,6 +520,7 @@
 		};
 		4C6C5CE2238FA65300E4DBE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FC13688B15261B44EDC747B /* Pods-SwiftyLibExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
